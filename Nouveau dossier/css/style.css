@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(10, 12, 27); 
+   position: relative;
+
+
+}
+main .pannel{
+    width: 80%;
+    min-height: 500px;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 20px;
+    box-shadow:0px 0px 0px 5px rgba(10, 12, 27,0.3);
+
+
+   
+
+}
+main .pannel .contaent{
+    width: 50%;
+    min-height: 100%;
+    display: block;
+    padding-top: 80px;
+    padding-left: 50px;
+    background-color: #1c1938;
+     border-radius: 10px 2px 0px 10px;
+
+}
+main .pannel .contaent h3{
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: #e2f8f7;
+    margin-top: 10px;
+    font-family: Acme;
+
+    
+   
+
+}
+main .pannel .contaent span{
+    color: #b66ae0;
+}
+main .pannel .contaent p{
+    color: #aba9bf;
+    margin-top: 20px;
+    line-height: 15px;
+    font-family: "Alegreya Sans";
+   
+    
+}
+main .pannel .contaent ul{
+ 
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    margin-top: 30px;
+ 
+}
+main .pannel .contaent ul li{
+list-style: none;
+ 
+}
+main .pannel .contaent ul .num{
+    font-size: 3rem;
+    font-weight: 600;
+     color: #e2f8f7;
+ 
+}
+/*image part*/
+
+.img_pannel{
+width: 50%;
+    float: left;
+    position: relative;
+     border-radius:0px 10px  10px 0px;
+  
+}
+.img_pannel img{
+    width: 100%;
+    height: 100%;
+      border-radius: 0px 10px 10px 0px;
+      background:linear-gradient(to left ,#b66ae0,#b66ae0);
+
+}
+.img_pannel .color{
+    background-color: rgba(155, 22, 238,0.5);
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+     border-radius: 0px 10px 10px 0px;
+}
